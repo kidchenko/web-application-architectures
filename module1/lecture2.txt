@@ -1,0 +1,10 @@
+- Advantages
+    - Ubiqut - all peoples use web browser
+    - Cross-Plataform
+    - Upadate and maintain web apps without distributing for all clients
+    - Cloud computing
+
+- Disadvantages
+    - User experience not is very goob as desktop and pc apps
+    - Privacy and security 
+    - For developer is difficult to develop and debug - multiple technology and languages

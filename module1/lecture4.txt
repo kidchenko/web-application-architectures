@@ -1,0 +1,24 @@
+Design Patterns
+
+- Developing, maintaining and extending a complex web application is extremely difficult, but it using solid design principles can simplify each of tasks
+- Softwares engineers use a abstraction to deal with this type of complexity
+- Design patterns provide useful design abstractions for OPP
+
+What is design pattern?
+
+    - A design pattern is a description of interacting objects and classes that interact to solve a general design problem within a particular context
+    - A design pattern is an abstract that can be applied over and over again
+    - Design patterns provide a way to communicate the parts of a design
+
+Server vs Client
+
+    - Sever and Cliend have differents responsibilitys
+    - The n-tier architeture is a highly useful design pattern that maps to the client-server model
+    - This design patter on the conecpt of braking a system intpo differente pices or tiers
+        - Each tier is responsible for providing a specific functionality
+
+What are the advantages of such a design?
+    - The abstraction provides a means for managing the complexity of the design
+    - Tier can be upgraded or replaced independently as requirements or technology change
+    - PROVIDES A BALANCE BETWEEN INNOVATION AD STANDARDIZATION
+    - This system are much easier to build and maitaning

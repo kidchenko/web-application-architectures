@@ -27,10 +27,10 @@ Finally, tracked files can be either:
 
 Commands
 
-- git add . - it takes everything in your working directory and move those files into the staging area
-- git commit - if you perform a commit, that puts those files into your local Git repository
-- git checkout <branch> - if you want to check out a particular branch
-- merge <branch> - if you'd like to merge two branches you issue, Git merge, and the branch name and it, it'll merge that into the current branch
-- push <remote> <branch> - you push to the remote repository and you have to specify which branch you'd like to push up to that remote repository
-- fetch - retrive a remote repository, you issue the fetch command
-- clone <remote> or pull <remote> - is a fetch and it checks out the most recent branch and makes that your master
+- `git add .` - it takes everything in your working directory and move those files into the staging area
+- `git commit -m "<message>"` - if you perform a commit, that puts those files into your local Git repository
+- `git checkout <branch>` - if you want to check out a particular branch
+- `merge <branch>` - if you'd like to merge two branches you issue, Git merge, and the branch name and it, it'll merge that into the current branch
+- `push <remote> <branch>` - you push to the remote repository and you have to specify which branch you'd like to push up to that remote repository
+- `fetch` - retrive a remote repository, you issue the fetch command
+- `clone <remote> or pull <remote>` - is a fetch and it checks out the most recent branch and makes that your master

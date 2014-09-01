@@ -22,7 +22,7 @@ Web 2.0
 - user has the ability and begin write and save information on the web
 
 Web 3.0
-- ´todo´ search about web 3.0
+- `todo` search about web 3.0
 - intelligency associated whith data
 - metada allows machines to better undestand what your data is about
 - machubes process your data for give to user better experiences and usability

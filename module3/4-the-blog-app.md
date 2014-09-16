@@ -23,7 +23,17 @@ However, there is one thing missing - we need to ensure that any comments entere
 
 \* The foreign keys for each model are stored in a join table
 
-`dependent: :destroy` - delete all of the comments that are dependent of a post
+```ruby
+class Person < ActiveRecord::Base
+ has_many :phones # dependent: :destroy
+end
+
+class Phone < ActiveRecord::Base
+ belongs_to :person
+end
+```
+
+`dependent: :destroy` - destroy in cascading, e.g., delete all of the comments that are dependent of a post
 
 ```ruby
  # routes.rb
